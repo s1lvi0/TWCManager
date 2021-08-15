@@ -2,7 +2,9 @@
 
 This document logs the changes per release of TWCManager.
 
-## v1.2.3 - Current development version
+## v1.3.0 - Latest Development Version
+
+## v1.2.3 - 2021-08-10
 
   * **NOTE**: v1.2.3 contains a potentially breaking change for users of OpenWB or the Legacy Web Interface
      * As of v1.2.3, the Legacy Web Interface and its dependencies such as lighttpd and php are no longer installed by default.
@@ -15,6 +17,13 @@ This document logs the changes per release of TWCManager.
   * (@VIDGuide) - Fixed Modern UI layout on mobile, added Stop Charge Now button and fixed Charge Now control spacing.
   * (@VIDGuide) - Add Timezone parameter to docker-compose files to allow specifying container timezone
   * (@the-dbp) - Added Growatt EMS module
+  * (@jherby2k) - Align API and HASS Status module values
+  * (@mvaneijken) - Add MySQL logging module Port parameter
+  * (@ngardiner) - Refactor TWCManager structure to allow for entire project to be packaged into pypi packaging for easy install/upgrades
+  * (@jherby2k) - Add IotaWatt EMS interface
+  * (@mvaneijken) - Added P1 Monitor EMS module
+  * (@jherby2k) - Add support for HomeAssistant integration
+  * (@MikeBishop) - Add support for deleting tasks, avoid sending stop commands under some conditions to avoid unnecessary transitions
 
 ## v1.2.2 - 2021-06-09
 
